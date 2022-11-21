@@ -1,7 +1,7 @@
 #include <stdio.h>
 /* Búsqueda secuencial en arreglos desordenados. */
 const int MAX=100;
-void Lectura(int, int); /* Prototipos de funciones. */
+void LEctura(int, int); /* Prototipos de funciones. */
 int Busca(int *, int, int);
 void main(void)
 {

@@ -11,7 +11,7 @@ do
 printf("Ingrese el tamaño del arreglo: ");
 scanf("%d", &TAM);
 }
-while (TAM > MAX  TAM < 1); 
+while (TAM > MAX || TAM < 1); 
 /* Se verifica que el tamaño del arreglo sea correcto. */
 Lectura(VEC, TAM);
 printf("\nIngrese el elemento a buscar:");
@@ -25,7 +25,7 @@ printf("\nEl elemento se encuentra en la posición: %d", RES);
 else
 printf("\nEl elemento no se encuentra en el arreglo");
 }
-void Lectura(int A[], int T)
+void Lec(int A[], int T)
 /* La función Lectura se utiliza para leer un arreglo unidimensional de T
 ➥elementos de tipo entero. */
 {
