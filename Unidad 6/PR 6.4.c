@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <math.h>
 /* Fábrica de lácteos.
 El programa, al recibir como datos las ventas mensuales de diferentes
 ➥productos, obtiene información estadística valiosa para la empresa. */
@@ -11,9 +12,8 @@ void Funcion3(float *, int);
 void main(void)
 {
 int FAB[15][12] = {0}; /* Inicialización en 0 del arreglo FAB. */
-float COS[15], VEN[15];
+int COS[15], VEN[15];
 Lectura1(FAB);
-Lectura2(COS, 15);
 Funcion1(FAB, 15, 12, COS, VEN);
 Funcion2(VEN, 15);
 Funcion3(VEN, 15);

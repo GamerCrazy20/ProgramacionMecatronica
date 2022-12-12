@@ -8,12 +8,12 @@ void main(void)
 {
 int i;
 char fra[50];
-printf("\nIngrese la línea de texto: ");
+printf("\nIngrese la linea de texto: ");
 gets(fra);
 strcat(fra," "); /* Se agrega un espacio en blanco al final de la
                 ➥cadena. */
 i = cuentap(fra);
-printf("\nLa línea de texto tiene %d palabras", i);
+printf("\nLa linea de texto tiene %d palabras", i);
 }
 int cuentap(char *cad)
 {
