@@ -22,7 +22,7 @@ while (VOT)
         case 5: C5++; break;
         default: NU++; break;
     }
-    printf("Ingrese el siguiente voto –0 para terminar–: ");
+    printf("Ingrese el siguiente voto 0 para terminar: ");
     scanf("%d", &VOT);
 }
 SVO = C1 + C2 + C3 + C4 + C5 + NU;

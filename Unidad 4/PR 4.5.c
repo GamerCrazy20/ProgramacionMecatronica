@@ -14,13 +14,13 @@ int RA5 = 0;
 void main(void)
 {
 float CAL;
-printf("Ingresa la primera calificación del alumno: ");
+printf("Ingresa la primera calificacion del alumno: ");
 scanf("%f", &CAL);
 while (CAL != -1)
 {
 Rango(CAL); /* Llamada a la función Rango. Se pasa un parámetro
 por valor. */
-printf("Ingresa la siguiente calificación del alumno: ");
+printf("Ingresa la siguiente calificacion del alumno: ");
 scanf("%f", &CAL);
 }
 printf("\n0..3.99 = %d", RA1);

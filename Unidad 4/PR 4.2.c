@@ -6,7 +6,7 @@ int mad(int); /* Prototipo de función. */
 void main(void)
 {
 int NUM, RES;
-printf("\nIngresa el número: ");
+printf("\nIngresa el numero: ");
 scanf("%d", &NUM);
 RES = mad(NUM);
 printf("\nEl mayor divisor de %d es: %d", NUM, RES);

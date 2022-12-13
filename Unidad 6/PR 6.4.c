@@ -12,8 +12,9 @@ void Funcion3(float *, int);
 void main(void)
 {
 int FAB[15][12] = {0}; /* Inicialización en 0 del arreglo FAB. */
-int COS[15], VEN[15];
+float COS[15], VEN[15];
 Lectura1(FAB);
+Lectura2(COS, 12);
 Funcion1(FAB, 15, 12, COS, VEN);
 Funcion2(VEN, 15);
 Funcion3(VEN, 15);
